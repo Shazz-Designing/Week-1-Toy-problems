@@ -21,11 +21,11 @@ function calculateNetSalary(basicSalary, benefits) {
         );
         paye += taxableAmount * rate.rate;
       } else {
-        break; // No need to continue, already in the highest tax bracket
+        break; 
       }
     }
   
-    // Calculate NHIF (assuming gross pay includes benefits)
+    // Calculate NHIF
     let nhif = 0;
     if (annualTaxablePay <= 5999 * 12) {
       nhif = 150;
@@ -58,7 +58,7 @@ function calculateNetSalary(basicSalary, benefits) {
       }
     }
   
-    // Calculate NSSF (assuming gross pay includes benefits)
+    // Calculate NSSF 
     const nssfRate = 0.06; // 6% contribution from both employee and employer
     const nssfLimitTier1 = 6000 * 12;
     const nssfLimitTier2 = 18000 * 12;
