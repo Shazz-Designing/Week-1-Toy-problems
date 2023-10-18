@@ -51,5 +51,8 @@ Here's how you can run the code for each challenge:
 https://www.aren.co.ke/payroll/taxrates.htm
 (#) - Detailed information on tax rates and deductions used in Challenge 3.
 
+##Licence
+MIT license
+
 Feel free to explore, learn, and improve your coding skills with these toy problems. Happy coding!
 
